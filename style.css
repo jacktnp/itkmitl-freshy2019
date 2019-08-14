@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css?family=Mitr&display=swap');
+
+body{
+    background: url('bg.jpg') center/cover;
+}
+
+.title-profile{
+    background-image: -webkit-gradient( linear, left top, right top, color-stop(0, #DC04FF), color-stop(1, #00114F) );
+    background-image: gradient( linear, left top, right top, color-stop(0, #DC04FF), color-stop(1, #00114F) );
+    color:transparent;
+    -webkit-background-clip: text;
+    background-clip: text;
+}
+
+.title-myqr{
+    background-image: -webkit-gradient( linear, left top, right top, color-stop(0, #DC04FF), color-stop(1, #FF0099) );
+    background-image: gradient( linear, left top, right top, color-stop(0, #DC04FF), color-stop(1, #FF0099) );
+    color:transparent;
+    -webkit-background-clip: text;
+    background-clip: text;
+}
+
+.title-scanner{
+    background-image: -webkit-gradient( linear, left top, right top, color-stop(0, #DC04FF), color-stop(1, #FF0000) );
+    background-image: gradient( linear, left top, right top, color-stop(0, #DC04FF), color-stop(1, #FF0000) );
+    color:transparent;
+    -webkit-background-clip: text;
+    background-clip: text;
+}
+
+.title-leader{
+    background-image: -webkit-gradient( linear, left top, right top, color-stop(0, #FF8C04), color-stop(1, #202020) );
+    background-image: gradient( linear, left top, right top, color-stop(0, #FF8C04), color-stop(1, #202020) );
+    color:transparent;
+    -webkit-background-clip: text;
+    background-clip: text;
+}
+
+.title-friend{
+    background-image: -webkit-gradient( linear, left top, right top, color-stop(0, #DC04FF), color-stop(1, #07FFF0) );
+    background-image: gradient( linear, left top, right top, color-stop(0, #DC04FF), color-stop(1, #07FFF0) );
+    color:transparent;
+    -webkit-background-clip: text;
+    background-clip: text;
+}
+
+
+.bg-salmon{
+    background: #FF7B7B !important;
+    border: 0 !important;
+    padding: .7em 1em .7em 1em !important;
+}
+
+.bg-salmonfade{
+    background: #FFF0F0;
+}
+
+.count{
+    color: red;
+}
+
+.year-box{
+    background: salmon;
+    padding: .25em;
+    border-radius: .5em;
+    color: #fff;
+}
+
+.year-box-count{
+    /*text-decoration: underline;*/
+}
+
+div{
+    font-family: 'Mitr', sans-serif;
+}
+
+footer{
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    padding: .75em;
+    color: #fff;
+    background: #343a40 !important;
+    text-align: center;
+}
+
+.navbar-dark .navbar-toggler{
+    background: #434343;
+}
